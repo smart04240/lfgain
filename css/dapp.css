@@ -8,9 +8,6 @@
 }
 
 
-#tokenStats {}
-
-
 .tokenStatBox {
     padding: 80px;
 }
@@ -24,9 +21,11 @@
     max-width: 500px !important;
 }
 
-.wallet {
+.wallet-box {
     border-radius: 20px;
-    border: 1px solid #F1E080;
+    border       : 1px solid #F1E080;
+    margin-bottom: 50px;
+    text-align   : center;
 }
 
 .wallet .cls-1 {

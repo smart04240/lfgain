@@ -68,14 +68,14 @@
     <!-- Top scroll End -->
 
 
-    <header class="transition" style="padding: 0px">
+    <header class="transition" style="padding: 10px">
         <div class="container">
             <div class="row flex-align">
                 <div class="col-lg-4 col-md-3 col-8 nav-col" style="max-width:20%;flex:0 0 20%">
                     <div class="logo">
                         <div>
-                            <a href="/#home"><img id="nav-logo-img" src="./images/logo.png" alt="LFgains"
-                                    style="width: 50px; padding-top: 10px; padding-bottom: 10px;"></a>
+                            <a href="/#home"><img id="nav-logo-img" src="./images/logo.png" alt="LFGAIN"
+                                    style="width: 50px;"></a>
                         </div>
                     </div>
                 </div>
@@ -86,16 +86,16 @@
                     <div class="menu">
                         <ul class="d-inline-block">
                             <li>
-                                <a href="/#features" class="scrollTo">Features</a>
+                                <a href="#features" class="scrollTo">Features</a>
                             </li>
                             <li>
-                                <a href="/#roadmap" class="scrollTo">Roadmap</a>
+                                <a href="#roadmap" class="scrollTo">Roadmap</a>
                             </li>
                             <li>
                                 <a href="/merch.html">Merch</a>
                             </li>
                             <li>
-                                <a href="/#faq" class="scrollTo">FAQ</a>
+                                <a href="#faq" class="scrollTo">FAQ</a>
                             </li>
                             <li class="mega-menu">
                                 <span class="opener plus"></span>
@@ -114,9 +114,7 @@
                             </li>
                         </ul>
                         <div class="signin d-inline-block">
-                            <div class="btn btnConnect" style="cursor: pointer">
-                                Connect
-                            </div>
+                            <a href="./dashboard.html" class="btn" style="font-size:15px">Dashboard</a>
                         </div>
                     </div>
                 </div>
@@ -157,99 +155,50 @@
                     <p style="text-align: center; margin-bottom: 50px">Notice: You may experience delays due to the low
                         volume that we are currently experiencing </p>
 
-                    <div class="d-flex justify-content-between mb-5">
-                        <div class="p-5 wallet">
+                    <div class="d-flex flex-wrap justify-content-between">
+                        <div class="p-5 wallet-box wallet">
                             <div class="mb-2" style="font-size: 20px">
                                 <i class="fas fa-wallet pr-3"></i>
                                 <span class="font-weight-bold">Your holdings</span>
                             </div>
-                            <div class="text-center ">0</div>
+                            <div>0</div>
                         </div>
 
-                        <div class="p-5 wallet">
+                        <div class="p-5 wallet-box wallet">
                             <div class="mb-2" style="font-size: 20px">
                                 <img src="./images/bnb.svg" alt="bnb" class="pr-3" style="width: 40px;" />
                                 <span class="font-weight-bold">Total BNB Paid</span>
                             </div>
-                            <div class="text-center ">0</div>
+                            <div>0</div>
                         </div>
 
-                        <div class="p-5 wallet">
+                        <div class="p-5 wallet-box wallet">
                             <div class="mb-2" style="font-size: 20px">
                                 <i class="far fa-clock pr-3"></i>
                                 <span class="font-weight-bold">Last Payout TIme</span>
                             </div>
-                            <div class="text-center ">Never</div>
+                            <div>Never</div>
                         </div>
 
-                        <div class="p-5 wallet">
+                        <div class="p-5 wallet-box wallet">
                             <div class="mb-2" style="font-size: 20px">
                                 <i class="fas fa-hourglass-start pr-3"></i>
                                 <span class="font-weight-bold">Pending Payout</span>
                             </div>
-                            <div class="text-center ">0</div>
+                            <div>0</div>
                         </div>
                     </div>
 
-                    <div class="d-flex justify-content-between align-items-center mb-5 wallet">
-                        <img src="./images/logo1.png" alt="LFGains" style="width: 200px" />
+                    <div class="d-flex justify-content-between align-items-center mb-5 wallet-box paid">
+                        <img src="./images/logo1.png" alt="LFGains" />
                         <div class="text-center">
-                            <div class="font-weight-bold" style="font-size: 30px;">Total BNB Paid To LFGains$ Holders</div>
-                            <div class="my-3" style="font-size: 24px;">0</div>
-                            <div class="my-3" style="font-size: 24px;">= $0.00</div>
+                            <div class="wallet-title">Total BNB Paid To LFGains$ Holders
+                            </div>
+                            <div class="wallet-description">0</div>
+                            <div class="wallet-description">= $0.00</div>
                         </div>
-                        <img src="./images/logo1.png" alt="LFGains" style="width: 200px" />
+                        <img src="./images/logo1.png" alt="LFGains" />
                     </div>
-
-                    <div class="feature-box tokenStatBox mainWalletStatBox">
-                        <div>
-                            <table style="margin: auto; width:100%">
-                                <tr>
-                                    <td colspan="2">
-                                        <span class="feature-title"
-                                            style="font-size: 31px; vertical-align: middle; color: #fff"><img
-                                                src="./images/bnb.svg" style="height:35px; margin-right: 10px" /> <span
-                                                id="txtWalletBnbReceived">0</span> BNB received</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-bottom: 20px"></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2">
-                                        <span class="feature-title" style="color: #fff"><span
-                                                style="color: #dcc692; margin-right: 10px">Rate:</span><span
-                                                id="txtWalletRate">0</span> BNB per cycle | <span
-                                                id="txtWalletShare">0</span>%</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-bottom: 20px"></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2">
-                                        <span style="color: #dcc692">Next payout progress:</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2">
-                                        <div style="margin-top:10px">
-                                            <span id="txtCycleProgressPercentage">0%</span>
-                                        </div>
-                                        <div class="token-sale-counter text-center"
-                                            style="margin:auto; max-width:100%; margin-top: 20px">
-                                            <div class="coins-progress" data-reward="true" style="margin-bottom:0px">
-                                                <span data-progress="1"></span>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-
 
 
                 </div>
@@ -395,101 +344,6 @@
             </div>
         </div>
     </section>
-
-
-    <section class="feature-part darkblue pt-100 pb-10">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 wow fadeInUp">
-                    <div class="section-heading text-center pb-65">
-                        <label class="sub-heading">Reinvest</label>
-                        <h2 class="heading-title">Reinvest your rewards</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12 wow fadeInUp">
-                    <p>You can choose to allocate a portion of your rewards to be automatically re-invested after every
-                        cycle. The XLD tokens will be sent automatically to your wallet. To learn more about how this
-                        works check out our <a href="https://docs.stellardiamond.net/functions/bnb-rewards">docs</a>.
-                    </p>
-                    <p style="margin-bottom:15px; margin-top: 15px">For example, you can choose to convert 10% of your
-                        rewards to XLD. After every reward cycle, the XLD will appear automatically into your wallet,
-                        along with the remaining 90% as BNB.</p>
-                    <p>By moving the slider towards XLD you are increasing your allocated portion that will be converted
-                        to XLD.</p>
-                    <p style="margin-top:15px; font-size: 14px">You are currently viewing data for address: <span
-                            class="current-selected-address" style="color: #dcc692">None selected</span></p>
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-md-12 wow fadeInUp">
-
-                    <div class="slider-container">
-                        <div class="range-slider">
-                            <span class="rs-bullet rs-label">0</span>
-                            <input id="rs-range-line-reinvest" class="rs-range-line rs-range" type="range" value="0"
-                                min="0" max="100">
-                        </div>
-
-                        <div class="box-minmax">
-                            <table style="width: 100%">
-                                <tr>
-                                    <td style="width: 45px">
-                                        <img src="./images/bnb.svg" style="height:35px;" class="fadebnb" />
-                                    </td>
-                                    <td>
-                                        <span class="fadebnb">BNB</span>
-                                    </td>
-                                    <td style="text-align: center">
-                                        Current selection: <span id="txtReinvestPercentage"
-                                            style="color: #dcc692">0%</span>
-                                    </td>
-                                    <td>
-                                        <span style="float:right" class="fadexld">XLD</span>
-                                    </td>
-                                    <td style="width: 40px">
-                                        <img src="./images/logo.png" style="height:35px; float:right" class="fadexld" />
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row" style="margin-top: 40px">
-                <div class="col-md-12 wow fadeInUp text-center">
-                    <p>You will be converting <span id="reinvestInfo" style="color: #dcc692">0%</span> of your rewards
-                        to XLD tokens. Connect your wallet and click update to submit your changes.</p>
-
-                    <div class="disconnectedData" style="margin-bottom: 30px; margin-top: 30px;">
-                        <div class="btn btnConnect" style="cursor: pointer">
-                            Connect
-                        </div>
-                    </div>
-
-                    <div class="connectedData" style="margin-bottom: 30px; margin-top: 30px">
-                        <div href="#" class="btn loading" id="btnUpdateReinvest"
-                            style="box-shadow: 0px 0px 20px 1px rgba(198, 192, 149, 0.95); cursor: pointer">
-                            <span id="txtUpdateReinvest">Update</span>
-                            <span><img id="imgLoadingUpdateReinvest"
-                                    style="width: 25px; margin-left: 10px; display:none"
-                                    src="./images/loading.svg" /></span>
-                        </div>
-                    </div>
-                    <h6 id="txtUpdateReinvestStatus" style="opacity: 0; height:35px; font-family: Lato"
-                        class="transition"></h6>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
 
     <section class="feature-part darkblue pt-100 pb-10" id="tokenStats">
         <div class="container">
