@@ -1,0 +1,377 @@
+/* ==========================================================================
+   06. GALLERY SECTION
+   ========================================================================== */
+.gallery.main-gallery {
+    background-color: #181728;
+}
+
+.gallery .filter-item {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 30px 20px 30px;
+    cursor: pointer;
+}
+
+    .gallery .filter-item.active {
+        color: #F1E080;
+    }
+
+    .gallery .filter-item:first-child {
+        margin-left: 30px;
+    }
+
+    .gallery .filter-item:last-child {
+        margin-right: 30px;
+    }
+
+.gallery .item {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 14px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+    .gallery .item:hover .item-info {
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.3s ease-out;
+        z-index: 1;
+    }
+
+    .gallery .item img {
+        width: 100%;
+    }
+
+    .gallery .item .item-info {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 85px 100px;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+        pointer-events: none;
+        visibility: visible;
+        z-index: 1;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+        .gallery .item .item-info .info-bl {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+
+            .gallery .item .item-info .info-bl .item-title {
+                line-height: 28px;
+                transition: all 0.3s ease-out;
+            }
+
+                .gallery .item .item-info .info-bl .item-title:hover {
+                    color: #1e1d32;
+                    transition: all 0.3s ease-out;
+                }
+
+            .gallery .item .item-info .info-bl .item-btn {
+                border: 1px solid #fff;
+                border-radius: 10px;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                margin: 0 5px;
+                transition: all 0.3s ease-out;
+            }
+
+                .gallery .item .item-info .info-bl .item-btn:hover {
+                    background-color: #F1E080;
+                    border: 1px solid #c2d4f8;
+                    transition: all 0.3s ease-out;
+                }
+
+                .gallery .item .item-info .info-bl .item-btn .fa {
+                    font-size: 14px;
+                    color: #fff;
+                }
+
+        .gallery .item .item-info:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-image: linear-gradient(to right, rgba(198, 192, 149, 0.64) 0%, rgba(232, 226, 188, 0.64) 100%);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+20. GALLERY PAGES
+========================================================================== */
+.gallery .masonry-tpl .item {
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.gallery .regular-tpl .item {
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.gallery .full-tpl .item {
+    margin-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+    .gallery .full-tpl .item .item-content .image-bl {
+        position: relative;
+    }
+
+        .gallery .full-tpl .item .item-content .image-bl:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to right, #F1E080 0%, rgba(146, 82, 234, 0.64) 100%);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease-out;
+        }
+
+    .gallery .full-tpl .item .item-content:hover .image-bl:before {
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.3s ease-out;
+    }
+
+    .gallery .full-tpl .item .item-content:hover .img-name h5 {
+        color: #F1E080;
+        transition: all 0.3s ease-out;
+    }
+
+    .gallery .full-tpl .item .img-name {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+        .gallery .full-tpl .item .img-name h5 {
+            display: inline-block;
+            transition: all 0.3s ease-out;
+        }
+
+.gallery .extended-tpl .item {
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+    .gallery .extended-tpl .item .image-bl {
+        position: relative;
+    }
+
+        .gallery .extended-tpl .item .image-bl:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: linear-gradient(to right, #F1E080 0%, rgba(146, 82, 234, 0.64) 100%);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease-out;
+        }
+
+    .gallery .extended-tpl .item:hover .image-bl:before {
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.3s ease-out;
+    }
+
+    .gallery .extended-tpl .item .item-content {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .gallery .extended-tpl .item .img-name {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+        .gallery .extended-tpl .item .img-name h5 {
+            display: inline-block;
+            transition: all 0.3s ease-out;
+        }
+
+        .gallery .extended-tpl .item .img-name:hover h5 {
+            color: #F1E080;
+            transition: all 0.3s ease-out;
+        }
+
+.gallery .item.first .category {
+    color: #F1E080;
+}
+
+.gallery .item.second .category {
+    color: #5c9ddd;
+}
+
+.gallery .item.third .category {
+    color: #7c69e3;
+}
+
+.relative {
+    position: relative;
+}
+
+
+.navigation-link-next {
+    position: absolute;
+    top: 43%;
+    right: 5%;
+    z-index: 111;
+    -webkit-transition: .8s ease;
+    -o-transition: .8s ease;
+    transition: .8s ease;
+    color: #F1E080;
+}
+
+.navigation-link-prev {
+    position: absolute;
+    top: 43%;
+    left: 5%;
+    z-index: 111;
+    -webkit-transition: .8s ease;
+    -o-transition: .8s ease;
+    transition: .8s ease;
+    color: #F1E080;
+}
+
+.owl-nav {
+    height: 0px;
+}
+
+.image-bl {
+    width: 240px;
+    height: 240px;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+
+.image-desc {
+    width: 240px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #43434F;
+    transition: all .3s ease;
+    opacity: 1;
+}
+
+.item-content {
+    width: 240px;
+    height: 240px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+}
+
+
+.owl-image {
+    width: 100%;
+    height: 100%;
+    max-height: 360px !important;
+    background-size: cover;
+}
+
+
+.hat_white_01 {
+    background-image: url("/images/merch/hat_white_01.jpg");
+}
+
+.hat_white_02 {
+    background-image: url("/images/merch/hat_white_02.jpg");
+}
+
+.hat_black_01 {
+    background-image: url("/images/merch/hat_black_01.jpg");
+}
+
+.hat_black_02 {
+    background-image: url("/images/merch/hat_black_02.jpg");
+}
+
+
+.mug_01 {
+    background-image: url("/images/merch/mug_01.jpg");
+}
+
+.mug_02 {
+    background-image: url("/images/merch/mug_02.jpg");
+}
+
+
+.socks_01 {
+    background-image: url("/images/merch/socks_01.jpg");
+}
+
+.socks_02 {
+    background-image: url("/images/merch/socks_02.jpg");
+}
+
+.sweatshirt_01 {
+    background-image: url("/images/merch/sweatshirt_01.jpg");
+}
+
+.sweatshirt_02 {
+    background-image: url("/images/merch/sweatshirt_02.jpg");
+}
+
+.tshirt_fem_black_01 {
+    background-image: url("/images/merch/tshirt_fem_black_01.jpg");
+}
+
+.tshirt_male_white_01 {
+    background-image: url("/images/merch/tshirt_male_white_01.jpg");
+}
+
+
+.tanktop_01 {
+    background-image: url("/images/merch/tanktop_01.jpg");
+}
+
+
+
+.item-img-loading {
+    width: 50px !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

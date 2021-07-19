@@ -1,0 +1,85 @@
+.connectedData {
+    display: none;
+}
+
+.disconnectedData {
+    display   : none;
+    text-align: center
+}
+
+
+#tokenStats {}
+
+
+.tokenStatBox {
+    padding: 80px;
+}
+
+.signin .btn {
+    text-align: center !important;
+    padding   : 9px 20px !important;
+}
+
+.web3modal-modal-card {
+    max-width: 500px !important;
+}
+
+.wallet {
+    border-radius: 20px;
+    border: 1px solid #F1E080;
+}
+
+.wallet .cls-1 {
+    fill: #FFFFFF;
+}
+
+.walletTable {
+    margin    : auto;
+    text-align: left;
+}
+
+.walletTable tr td {
+    padding: 5px;
+}
+
+.walletTable tr td:first-child {
+    padding-right: 15px;
+}
+
+.mainWalletStatBox {
+    text-align: center;
+    width     : 600px;
+    margin    : auto;
+    box-shadow: 0px 0px 30px 1px rgba(198, 192, 149, 0.95);
+    padding   : 20px !important;
+}
+
+
+.calculatorRewardsAmountTable {
+    max-width: 350px;
+    width    : 350px;
+    min-width: 350px;
+    margin   : auto;
+}
+
+.calculatorRewardsAmountTable td {
+    border: none;
+}
+
+
+.calculatorRewardsAmountTable td span {
+    vertical-align: middle;
+}
+
+.calculatorRewardsAmountTable td img {
+    margin-right: 5px;
+}
+
+
+.calculatorCellBnb {
+    width: 30%;
+}
+
+.calculatorCellTokens {
+    width: 30%;
+}

@@ -1,0 +1,674 @@
+/*_______________________________________________________
+// BASIC STYLE  //----------------------------
+_______________________________________________________*/
+/*---------- General Style ------------*/
+body,
+html {
+	color     : #fff;
+	background: #03040c;
+}
+
+a,
+a:focus {
+	color: #F1E080;
+}
+
+a:hover {
+	color: #fff;
+}
+
+a.active {
+	color: #fff;
+}
+
+.socialbutton,
+.socialbutton:focus {
+	color: rgb(13, 13, 27) !important;
+}
+
+.socialbutton.active {
+	color: #fff !important;
+}
+
+.btn {
+	color       : #fff;
+	border      : 1px solid #F1E080;
+	border-color: #F1E080;
+}
+
+/* background: #da4bfd;*/
+.btn:hover {
+	color: #fff;
+}
+
+.btn:before {
+	background: -webkit-radial-gradient(center, ellipse, rgba(198, 192, 149, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
+	background: radial-gradient(ellipse at center, rgba(198, 192, 149, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.owl-dot {
+	background: #fff !important;
+}
+
+.owl-dot.active {
+	background: #F1E080 !important;
+}
+
+#preloader {
+	background: url('../images/logo.png') center no-repeat #03040c;
+	background-size: 250px;
+}
+
+.form-control,
+.form-control:focus {
+	background: #ffff;
+	color     : #03040c;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: #03040c;
+}
+
+.form-control::-moz-placeholder {
+	color: #03040c;
+}
+
+.form-control:-ms-input-placeholder {
+	color: #03040c;
+}
+
+.form-control:-moz-placeholder {
+	color: #03040c;
+}
+
+.heading-title-2 span,
+.sub-heading {
+	color: #F1E080;
+}
+
+.sub-page-banner {
+	background-color: #03040c
+}
+
+.skyblue {
+	background-color: #03040c;
+}
+
+.darkblue {
+	background-color: #080813;
+}
+
+.top-scroll {
+	border: 1px solid #F1E080;
+	color : #fff;
+}
+
+.top-scroll:hover {
+	opacity: 0.6;
+}
+
+.top-scroll a {
+	color: #fff;
+}
+
+/*----- Menu -----*/
+.menu ul li a:before {
+	background: #F1E080
+}
+
+header.fixed {
+	background: rgba(13, 13, 27, .90);
+}
+
+.opener:before,
+.opener:after {
+	background: #fff;
+}
+
+.menu-toggle span,
+.menu-toggle span:before,
+.menu-toggle span:after {
+	background: #fff;
+}
+
+header.fixed .menu-toggle span,
+header.fixed .menu-toggle span:before,
+header.fixed .menu-toggle span:after {
+	background: #fff;
+}
+
+.menu-toggle.active span {
+	background: transparent;
+}
+
+/*----- Home Banner -----*/
+.home-banner {
+	background-color: #03040c;
+}
+
+/*----- Work Section -----*/
+ul.check-list li span {
+	background: #fff;
+	color     : rgb(19, 15, 53);
+	font-size : 12px
+}
+
+/*----- Feature Section -----*/
+.feature-box:hover path.hover {
+	fill: #da4bfd;
+}
+
+/*----- Timeline Section -----*/
+.h-border,
+.v-row {
+	border-color: #F1E080;
+}
+
+.small-round {
+	border-color: #fff;
+}
+
+.v-row:before,
+.small-round span {
+	background: #F1E080;
+}
+
+/*----- Partners Section -----*/
+.partners-img {
+	border-color: #F1E080;
+}
+
+.partners-box:hover .partners-img {
+	border-color: #ffffff;
+}
+
+/* ---- Project Section -----*/
+.project-img {
+	border-color: #F1E080;
+}
+
+.partners-box:hover .project-img {
+	border-color: #ffffff;
+}
+
+/*----- Token Sale Section -----*/
+.token-graphic-detail ul li:before {
+	background: #f85d77;
+}
+
+.token-graphic-detail ul li.color-code-2:before {
+	background: #5ad6f8;
+}
+
+.token-graphic-detail ul li.color-code-3:before {
+	background: #f8c04e;
+}
+
+.token-graphic-detail ul li.color-code-4:before {
+	background: #ac56f7;
+}
+
+.token-graphic-detail ul li.color-code-5:before {
+	background: #61f89f;
+}
+
+.donut {
+	color: #3d1f94;
+}
+
+/*----- Blog Section -----*/
+.blog-date li:before {
+	background: #fff;
+}
+
+.read-more {
+	color: #da4bfd;
+}
+
+.read-more:hover {
+	color: #fff;
+}
+
+.blog-img a:before {
+	background: rgb(73 15 180 / 0.5);
+}
+
+/*----- FAQ Section -----*/
+.Frequently-tabs li a {
+	color      : #F1E080;
+	text-shadow: 0px 1px black;
+	font-weight: 800
+}
+
+.Frequently-tabs li a.active {
+	color: #fff;
+}
+
+.Frequently-tabs li a:before {
+	background: #F1E080;
+}
+
+.qus-des {
+	color: #fff;
+}
+
+/*----- Home Page Tow -----*/
+.banner-heading-tow span {
+	color: #da4bfd;
+}
+
+.coin-counter {
+	background: #5d19db;
+}
+
+.coin-head {
+	color: #da4bfd;
+}
+
+.coins-counter-loop li:before,
+.coins-counter-loop li:after {
+	background: #fff;
+}
+
+.coins-counter-loop li span {
+	background: #480eb4;
+	color     : #fff;
+}
+
+.coins-progress {
+	background: #490fb4;
+}
+
+.coins-progress span {
+	background-color: #d94afd;
+}
+
+/*----- Feature tow -----*/
+.feature-box-2 .frontend,
+.feature-box-2 .backend {
+	background: #5d19db;
+}
+
+.feature-des {
+	color: #dadada;
+}
+
+/*----- Roadmap Section -----*/
+.roadmap-part .v-row,
+.roadmap-part .h-border,
+.roadmap-des {
+	border-color: #F1E080;
+}
+
+.roadmap-part .small-round {
+	background: #470fac;
+}
+
+/*----- partners Tow Section -----*/
+.partners-box-2 {
+	background: #fff;
+}
+
+.partners-partner a {
+	color: #da4bfd;
+}
+
+.partners-partner a:hover {
+	color: #490fb4;
+}
+
+.partners-member-img {
+	background-color: #490fb4;
+}
+
+.partners-member-img:after {
+	background-color: rgba(255, 255, 255, .4);
+}
+
+/*----- Blog Tow Section -----*/
+.blog-part-2 .read-more:hover {
+	color: #fff;
+}
+
+/*----- FAQ tow Section -----*/
+.faq-part-2 .Frequently-tabs li a,
+.faq-part-2 .faq-tab,
+.accordion-faq-title {
+	color     : #F1E080;
+	background: #F1E080;
+}
+
+.faq-part-2 .Frequently-tabs li a.active {
+	background: #F1E080;
+}
+
+.faq-part-2 .qus-des {
+	color: #fff;
+}
+
+.accordion-faq-title.active,
+.accordion-faq-title:hover {
+	color: #fff;
+}
+
+.accordion-faq-content {
+	background: #F1E080;
+}
+
+.accordion-faq-title:before,
+.accordion-faq-title:after {
+	background: #fff;
+}
+
+/*----- About Page -----*/
+.sub-page-banner ul li:before {
+	background: #fff;
+}
+
+.play-icon span {
+	border-color: #470fac;
+	background  : #fff;
+	color       : #470fac;
+}
+
+.play-icon:hover span {
+	border-color: #fff;
+	background  : #da4bfd;
+	color       : #fff;
+}
+
+.work-part button.close {
+	color: #fff;
+}
+
+button.close {
+	color: #fff;
+}
+
+/*----- blog List Page -----*/
+.blog-search input {
+	border-color: #da4bfd;
+	color       : #fff;
+}
+
+.blog-search-btn {
+	background: #da4bfd;
+	color     : #fff;
+}
+
+.blog-search input::-webkit-input-placeholder {
+	color: #8d56f3;
+}
+
+.blog-search input::-moz-placeholder {
+	color: #8d56f3;
+}
+
+.blog-search input:-ms-input-placeholder {
+	color: #8d56f3;
+}
+
+.blog-search input:-moz-placeholder {
+	color: #8d56f3;
+}
+
+.blog-search-btn:hover {
+	background: #5d19db;
+}
+
+.blog-category {
+	background: #5d19db;
+}
+
+.blog-category ul li:before {
+	background: #da4bfd;
+}
+
+.trending-news-date {
+	color: #da4bfd;
+}
+
+.blog-tags ul li a {
+	background: #5d19db;
+	color     : #da4bfd;
+}
+
+.blog-tags ul li a:hover {
+	background: #da4bfd;
+	color     : #fff;
+}
+
+.archives ul li {
+	border-color: #5d19db;
+}
+
+.blog-list-content ul li:before {
+	background: #fff;
+}
+
+.blog-list-pagination ul li a {
+	background: #5d19db;
+}
+
+.blog-list-pagination ul li a:hover,
+.blog-list-pagination ul li a.active {
+	color     : #fff;
+	background: #da4bfd;
+}
+
+/*----- blog Detail Page -----*/
+.blog-detail-content ul li:before {
+	background: #fff;
+}
+
+.blog-detail-content blockquote {
+	background  : #5d19db;
+	border-color: #da4bfd;
+}
+
+.blog-detail-tag ul li a,
+.blog-detail-social ul li a {
+	background: #5d19db;
+}
+
+.blog-detail-tag ul li a:hover {
+	background: #da4bfd;
+	color     : #fff;
+}
+
+.blog-detail-social ul li a:hover {
+	background: #da4bfd;
+	color     : #fff;
+}
+
+.blog-detail-tag-social,
+.blog-comment-post-singel {
+	border-color: #5d19db;
+}
+
+.comment-date {
+	color: #bebebe;
+}
+
+.comment-reply {
+	background: #da4bfd;
+}
+
+.comment-reply:hover {
+	color     : #fff;
+	background: #5d19db;
+}
+
+/*----- Roadmap Page -----*/
+.roadmap-center-line {
+	border-color: #da4bfd;
+}
+
+.roadmap-center-line:before,
+.roadmap-center-line:after {
+	background: #fff;
+}
+
+.roadmap-animated {
+	background: #5d19db;
+}
+
+.roadmap-main-content:before {
+	border-color: #da4bfd;
+}
+
+.roadmap-small-round {
+	border-color: #fff;
+	background  : #490fb4;
+}
+
+.roadmap-small-round:before {
+	background: #da4bfd;
+}
+
+.roadmap-main .roadmap-detail-box {
+	background: #5d19db;
+}
+
+.roadmap-main .roadmap-des {
+	color  : #fff;
+	padding: 0;
+}
+
+/*----- Token Sale Page -----*/
+.information-token-head {
+	color: #da4bfd;
+}
+
+.token-sale-counter {
+	background: transparent;
+}
+
+.token-sale-counter .coins-counter-loop li span {
+	background: transparent;
+}
+
+.token-sale-counter .coins-counter-loop li .coin-day {
+	color: #F1E080;
+}
+
+.token-sale-counter .coins-progress span {
+	background: rgb(218, 75, 253);
+	background: -moz-linear-gradient(left, rgba(198, 192, 149, 1) 0%, rgb(19, 15, 53) 100%);
+	background: -webkit-linear-gradient(left, rgba(198, 192, 149, 1) 0%, rgb(19, 15, 53) 100%);
+	background: linear-gradient(to right, rgba(198, 192, 149, 1) 0%, rgba(19, 15, 53, 1) 100%);
+	filter    : progid:DXImageTransform.Microsoft.gradient(startColorstr='#da4bfd', endColorstr='#490fb4', GradientType=1);
+}
+
+.token-slide-info:before {
+	background: white;
+}
+
+.token-sale-counter .coins-progress {
+	background: transparent;
+	border    : 1px white solid;
+}
+
+.distribution-title {
+	color: #da4bfd;
+}
+
+/*----- Contact Page -----*/
+.contact-detail li i {
+	background: #5d19db;
+}
+
+/*----- Footer Section -----*/
+.footer-icon ul li a {
+	background: #FFFFFF;
+}
+
+.footer-link ul li a:hover {
+	color: #da4bfd;
+}
+
+.subscribe .form-control {
+	background: #eae2cf;
+	color     : #000;
+}
+
+.subscribe .submit {
+	color     : #000;
+	background: #F1E080;
+}
+
+.subscribe .form-control::-webkit-input-placeholder {
+	color: #000;
+}
+
+.subscribe .form-control::-moz-placeholder {
+	color: #000;
+}
+
+.subscribe .form-control:-ms-input-placeholder {
+	color: #000;
+}
+
+.subscribe .form-control:-moz-placeholder {
+	color: #000;
+}
+
+.subscribe:not(disabled) .submit:hover {
+	background: #e8c97d;
+}
+
+.subscribe:disabled {
+	background: #837d81 !important
+}
+
+.copyright p a {
+	color: #da4bfd;
+}
+
+.copyright p a:hover {
+	color: #fff;
+}
+
+.copyright ul li:before {
+	background: #5d19db;
+}
+
+.footer {
+	border-color: #F1E080;
+}
+
+@media(min-width: 992px) {
+
+
+	.menu ul ul li a {
+		border-color: #F1E080 !important;
+		color       : #fff !important;
+	}
+
+	.menu ul ul li.mega-menu:before {
+		color: #da4bfd;
+	}
+
+	.menu ul ul li:hover>a {
+		color: #da4bfd;
+	}
+
+	.menu ul ul {
+		background: rgba(13, 13, 27, .90);
+	}
+
+}
+
+@media(max-width: 991px) {
+	.menu {
+		background: #03040c;
+	}
+
+	.signin .btn {
+		background: transparent;
+	}
+
+	header.fixed .menu-toggle.active span {
+		background: transparent;
+	}
+}
